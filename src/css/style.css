@@ -2,6 +2,19 @@ h1 {
     text-align: center;
 }
 
+.form-control::placeholder {
+    color: #c7c7c7;
+}
+
+.col-12 {
+    padding-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    .col-12 {
+        padding-bottom: 0;
+    }
+}
 .tooltip {
     position: relative;
     display: inline-block;
